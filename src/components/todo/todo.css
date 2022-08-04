@@ -1,0 +1,92 @@
+
+/* .container{
+    background: linear-gradient(135deg,
+     #8052e2,
+     #d161ff);
+} */
+.container{
+    border: 2px solid white;
+    padding: 30px 40px;
+    margin-top: 5%;
+}
+#New{
+    width: 50%;
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    position: relative;
+    left: 23%;
+}
+#New input{
+    width: 70%;
+    height: 45px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+
+#New input:focus{
+    outline: none;
+    border-color: #8052e2;
+}
+
+#New button{
+    position: relative;
+    float: right;
+    width: 15%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #8052e2;
+    border: none;
+    color: white;
+}
+
+.Task2{
+    width: 45%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 0%;
+    position: relative;
+    left: 25%;
+}
+.Task2 li{
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.button9{
+    display: flex;
+    align-items: center;
+}
+.button9 button{
+    margin-right: 5px;
+    padding-right: 13px;
+}
+span{
+    padding-left: 12px;
+}
+
+.del{
+    background: transparent;
+    border: none;
+}
+.like1{
+    background: transparent;
+    border: none;
+}

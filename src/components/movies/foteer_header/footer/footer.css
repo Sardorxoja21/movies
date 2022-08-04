@@ -1,0 +1,69 @@
+.fatherul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+}
+.leftul{
+    display: flex;
+    list-style-type: none;
+}
+.leftul li:nth-child(2) div {
+    display: none;
+    transition: 0.5s;
+}
+.leftul li:nth-child(2) div ul{
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    display: block;
+    border: 1px solid black;
+    /* display: none; */
+}
+.leftul li:nth-child(2) div ul li .letfulmovieslink{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    right: 30px;
+}
+.leftul li:nth-child(2) div ul li .letfulmovieslink:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.leftul li:nth-child(2):hover div{
+    display: block;
+    transition: 0.5s;
+}
+.leftul li{
+    color: white;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.rightul{
+    display: flex;
+    list-style-type: none;
+}
+.rightul li{
+    color: white;
+    padding-right: 40px;
+    font-size: 20px;
+}
+.tmdblogo{
+    width: 50%;
+    height: 50px;
+}
+.uzbutton{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: 0.5s;
+}
+.uzbutton:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}

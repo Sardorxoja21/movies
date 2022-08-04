@@ -1,0 +1,24 @@
+nav{
+    background: #1b1b1b;
+    color: white;
+}
+a{
+    color: white;
+}
+nav::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+}
+nav ul li{
+    /* float: left; */
+    display: inline-block;
+    background: black;
+    margin: 0 5px;
+}

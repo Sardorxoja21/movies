@@ -1,0 +1,52 @@
+.fixedtopul{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+.fathercontainer{
+    width: 100%;
+}
+.words{
+    width: 100%;
+    display: flex;
+}
+.rightwords{
+    width: 30%;
+}
+.leftwords{
+    width: 70%;
+}
+.shareme{
+    position: absolute;
+    right: 10px;
+}
+
+.card img{
+    border-radius: 5px;
+}
+.bacgroundimg{
+    filter: brightness(0.2) blur(2px);
+
+}
+.backdropof{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+.mee123{
+    display: flex;
+    position: relative;
+    right: 35%;
+}
+.mee123 img{
+    width: 10%;
+    height: 5%;
+}
+.mee123 span {
+    position: relative;
+    right: 30%;
+}
+#iconfather p{
+    margin-left: 50%;
+}

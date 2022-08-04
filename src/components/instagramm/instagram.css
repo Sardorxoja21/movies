@@ -1,0 +1,237 @@
+.searchbox{
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: 70px;
+}
+.instagram1{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
+}
+.instagram1 img{
+    width: 40%;
+}
+.search-btn{
+    color: #e84118;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.search-txt{
+    position: relative;
+    bottom: 10px;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0;
+}
+.searchbox:hover > .search-txt{
+    width: 240px;
+    padding: 0 60px;
+}
+.searchbox:hover > .search-btn{
+    background: white;
+}
+
+.wrapper{
+    display: inline-flex;
+}
+.wrapper .icon{
+    margin: 0 20px;
+    cursor: pointer;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    right: 30px;
+}
+.wrapper .icon span{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: #9ab3b0;
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1)
+}
+.wrapper .icon p{
+    font-size: 25px;
+    line-height: 60px;
+}
+.wrapper .icon .tooltip1{
+    position: absolute;
+    top: 0px;
+    background: white;
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.4s;
+}
+.wrapper .icon .tooltip1::before{
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    transition: 0.1s;
+}
+.wrapper .icon:hover .tooltip1{
+    opacity: 2;
+    pointer-events: auto;
+}
+.wrapper .icon:hover span
+.wrapper .icon:hover .tooltip1
+{
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+.wrapper .home:hover span
+{
+    background: #3b5999;
+}
+.wrapper .home:hover span p{
+    color: white;
+}
+.wrapper .home:hover .tooltip1::before{
+    background: #3b5999;
+    transition: 0.1s;
+}
+.wrapper .home:hover .tooltip1
+{
+    background: #3b5999;
+    color: white;
+}
+
+
+.wrapper .message:hover span
+{
+    background: #46c1f6;
+}
+.wrapper .message:hover span p{
+    color: white;
+}
+.wrapper .message:hover .tooltip1::before{
+    background: #46c1f6;
+    transition: 0.1s;
+}
+.wrapper .message:hover .tooltip1
+{
+    background: #46c1f6;
+    color: white;
+}
+
+
+.wrapper .add:hover span
+{
+    background: #e1306c;
+}
+.wrapper .add:hover span p{
+    color: white;
+}
+.wrapper .add:hover .tooltip1::before{
+    background: #e1306c;
+    transition: 0.1s;
+}
+.wrapper .add:hover .tooltip1
+{
+    background: #e1306c;
+    color: white;
+}
+
+
+.wrapper .search1:hover span
+{
+    background: #de463b;
+}
+.wrapper .search1:hover span p{
+    color: white;
+}
+.wrapper .search1:hover .tooltip1::before{
+    background: #de463b;
+    transition: 0.1s;
+}
+.wrapper .search1:hover .tooltip1
+{
+    background: #de463b;
+    color: white;
+}
+
+
+.wrapper .like:hover span
+{
+    background: #333;
+}
+
+.wrapper .like:hover span p{
+    color: white;
+}
+.wrapper .like:hover .tooltip1::before{
+    background: #333;
+    transition: 0.1s;
+}
+.wrapper .like:hover .tooltip1
+{
+    background: #333;
+    color: white;
+}
+
+
+.wrapper .accaunt:hover span
+{
+    background: #25d366;
+}
+.wrapper .accaunt:hover span p{
+    color: white;
+}
+.wrapper .accaunt:hover .tooltip1::before{
+    background: #25d366;
+    transition: 0.1s;
+}
+.wrapper .accaunt:hover .tooltip1
+{
+    color: white;
+    background: #25d366;
+}
+
+.fixed1{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.body2{
+    width: 100%;
+    padding-top: 14%;
+}
+.rightcard{
+    width: 50%;
+}
+.photologofather{
+    display: flex;
+    justify-content: space-between;
+}
+.photologo{
+    width: 50px;
+    display: flex;
+}
